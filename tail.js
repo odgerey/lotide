@@ -27,10 +27,10 @@ const assertEqual = function(actual, expected) {
 
 
 const tail = function (TEST) {
-  let result = [];
+  let newArray = [];
 for (let i = 1; i < TEST.length; i++){
-  result.push(TEST[i]);
-} return result;
+  newArray.push(TEST[i]);
+} return newArray;
 }; // let actualArray =[1,5,7,8]
 // assertEqual("Lighthouse Labs", "Bootcamp");
 // assertEqual(1, 1);
